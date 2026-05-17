@@ -1,5 +1,14 @@
 # Smart Leads Dashboard - Backend Architecture & Codebase Guide 🚀
 
+[![Node.js](https://img.shields.io/badge/Node.js-20+-339933?logo=nodedotjs&logoColor=white&style=for-the-badge)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-5.x-000000?logo=express&logoColor=white&style=for-the-badge)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Cluster-47A248?logo=mongodb&logoColor=white&style=for-the-badge)](https://www.mongodb.com/)
+[![Mongoose](https://img.shields.io/badge/Mongoose-9.x-880000?logo=mongoose&logoColor=white&style=for-the-badge)](https://mongoosejs.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6?logo=typescript&logoColor=white&style=for-the-badge)](https://www.typescriptlang.org/)
+[![Zod](https://img.shields.io/badge/Zod-Validation-3E67B1?logo=zod&logoColor=white&style=for-the-badge)](https://zod.dev/)
+[![JWT](https://img.shields.io/badge/JWT-Secure-000000?logo=json-web-tokens&logoColor=white&style=for-the-badge)](https://jwt.io/)
+[![Bcrypt](https://img.shields.io/badge/Bcrypt-Hash-000000?style=for-the-badge)](https://www.npmjs.com/package/bcryptjs)
+
 Welcome to the backend documentation for the **Smart Leads Dashboard**! This document is designed specifically for **Reviewers and Developers** to understand the "why" and "how" of this backend. It provides a deep dive into the architecture, the flow of data, and the specific responsibilities of every file and folder in the `src` directory.
 
 We have built this backend with **Scalability, Security, and Maintainability** in mind, adhering strictly to the **Controller-Service-Route** architecture pattern.
