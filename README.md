@@ -122,6 +122,29 @@ These are pure, stateless functions that perform single, specific tasks.
 
 ---
 
+## 💻 Local Setup
+
+To run the backend locally:
+
+1. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Environment Variables:**
+   Create a `.env` file in the `backend` root based on `.env.example`.
+   ```env
+   PORT=5000
+   MONGODB_URI=mongodb://localhost:27017/gigflow
+   JWT_SECRET=your_super_secret_jwt_key_here
+   ```
+3. **Start Development Server:**
+   ```bash
+   npm run dev
+   ```
+   The backend API will be available at `http://localhost:5000`.
+
+---
+
 ## 🚦 The Lifecycle of a Request (Step-by-Step)
 
 To give the Reviewer a clear picture, here is the exact execution flow when a user attempts to **Update a Lead** (`PUT /api/leads/:id`):
